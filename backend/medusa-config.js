@@ -58,6 +58,12 @@ const medusaConfig = {
       // }
     },
     {
+      resolve: "./src/modules/store-analytics"
+    },
+    {
+      resolve: "./src/modules/wishlist",
+    },
+    {
       key: Modules.FILE,
       resolve: '@medusajs/file',
       options: {
